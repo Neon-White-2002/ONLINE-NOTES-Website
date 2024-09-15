@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NOTEPAD - WEBSITE</title>
+
+        <!-- STYLE-SHEET -->
+        <link rel="stylesheet" href="STYLE.CSS">
+
+        <!-- PAGE-LOGO -->
+        <link rel="icon" href="IMAGES/notepad-page-logo.png" type="img/icon">
+
+        <!-- FONT-AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="pop-up-box">
+            <div class="pop-up">
+                <div class="content">
+                    <header>
+                        <p>Add, New Note !</p>
+                        <i class="fa-solid fa-xmark" id="close_pop_box"></i>
+                    </header>
+
+                    <form action="" method="post">
+                        <div class="row title">
+                            <label for="">Title</label>
+                            <input type="text" name="" id="title-input">
+                        </div>
+
+                        <div class="row description">
+                            <label for="">Description</label>
+                            <textarea name="" id="description-input"></textarea>
+                        </div>
+
+                        <button type="button" id="add-note-button">Add Note</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <li class="add-box">
+                <div class="icon">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <p>Add, New Note's</p>
+            </li>
+            <!-- JAVA-SCRIPT -->
+        </div>
+
+        <!-- MAIN-SCRIPT -->
+        <script src="SCRIPT.JS"></script>
+    </body>
+</html>
